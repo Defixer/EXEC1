@@ -1,0 +1,23 @@
+compile program as
+
+/EXEC1$ javac com/exec/model/*.java com/exec/runtime/*.java
+
+run program as
+
+/EXEC1$ javac com/exec/runtime/StringFinderMain.java
+
+
+Directory Structure:
+
+EXEC1
+ |--com
+	|--exec
+		|--model
+		|    |--Validations.java
+		|    |--StringFinder.java
+		|
+		|--runtime
+			 |--StringFinderMain.java
+			
+ 
+>.lecoder.<
